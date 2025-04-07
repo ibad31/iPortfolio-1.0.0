@@ -37,6 +37,10 @@
   --nav-dropdown-hover-color: #ffffff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
+.typed{
+  color: rgb(8, 176, 8);
+}
+
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
@@ -653,6 +657,44 @@ section,
   color: var(--accent-color);
   line-height: 0;
 }
+
+
+#certificates .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+#certificates .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#certificates .card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+#certificates .card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+
+
+
+<style>
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-body {
+    text-align: center;
+  }
+</style>
+
+
+
 
 /*--------------------------------------------------------------
 # Stats Section
