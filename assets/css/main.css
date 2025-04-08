@@ -143,6 +143,24 @@ h6 {
   }
 }
 
+article h5{
+  margin-left: 10px;
+  
+}
+article p{
+  margin-left: 10px;
+}
+article button{
+  color: black;
+  background-color: white;
+  border-color: #149ddd;
+}
+article button:hover{
+  color: #149ddd;
+  background-color: white;
+  border-color: #149ddd;
+  border: none;
+}
 
 .img img{
   height: 400px;
