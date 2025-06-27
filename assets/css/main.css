@@ -167,6 +167,27 @@ article button:hover{
 }
 
 
+.btn-download-cv {
+  background-color: #73787c;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(77, 78, 80, 0.3);
+}
+
+.btn-download-cv:hover {
+  background-color: #149ddd;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(82, 83, 84, 0.4);
+  transform: translateY(-2px);
+}
+
+
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -714,7 +735,7 @@ section,
 
 
 
-<style>
+
   .card-img-top {
     height: 200px;
     object-fit: cover;
@@ -722,7 +743,7 @@ section,
   .card-body {
     text-align: center;
   }
-</style>
+
 
 
 
