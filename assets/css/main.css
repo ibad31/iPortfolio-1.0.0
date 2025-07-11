@@ -1368,7 +1368,13 @@ section,
 }
 
 
-
+.Color{
+  background-color: #149ddd;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+}
 
 
 /*--------------------------------------------------------------
